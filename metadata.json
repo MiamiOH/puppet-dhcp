@@ -1,6 +1,6 @@
 {
   "name": "theforeman-dhcp",
-  "version": "6.2.0",
+  "version": "6.2.1",
   "author": "theforeman",
   "summary": "Manage the ISC DHCP daemon",
   "license": "Apache-2.0",
@@ -17,7 +17,7 @@
   "dependencies": [
     {
       "name": "camptocamp/systemd",
-      "version_requirement": ">= 1.0.0 < 4.0.0"
+      "version_requirement": ">= 3.0.0 < 4.0.0"
     },
     {
       "name": "puppetlabs/concat",
